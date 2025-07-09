@@ -11,7 +11,7 @@
 - Pandas, Numpy, Seaborn, Matplotlib, scikit-learn
 - Tableau (Dashboard)
 
-## 🧹 Data Transformation
+# 🧹 Data Transformation
 
 To prepare the Airbnb listings dataset for analysis, the following steps were taken:
 
@@ -32,8 +32,30 @@ To prepare the Airbnb listings dataset for analysis, the following steps were ta
 
 6. **Data Type Conversions**  
    - Converted columns like boolean and strings(e.g prices, percentages) to the appropriate types for analysis.
-## Exploratory Data Analysis & Key Findings
+# Exploratory Data Analysis & Key Findings
 Analysis was centered on the features of Airbnb listings and what features made a impact of a listings popularity score
+### 🎯 Defining "Top" vs. "Average" Listings
 
+To distinguish between high- and average-performing Airbnb listings, we used the **75th percentile (Q3)** of the popularity distribution as a cutoff:
+
+- **Top Listings**: Listings in the **top 25% (≥ 75th percentile)** based on popularity indicators (e.g., number of reviews, review score).
+- **Average Listings**: Listings in the **bottom 75% (< 75th percentile)**.
+
+This quantile-based approach allows us to focus on established, high-performing listings while still comparing them to the general listing population.
+## Key Findings:
 - Price alone is not the sole factor: **affordability combined with quality features leads to better performance**
+- Room type plays a factor to increase popularity as **Entire homes/apt and private rooms have a higher median/mean compared to shared spaces such as shared rooms and hotel rooms** in popularity score
+- **Listings located near the coast or beaches**, especially in areas like Santa Monica and Venice, tend to have higher popularity scores.
+- **Proximity to Downtown Los Angeles** and other major city centers is also a strong indicator of listing performance.
+- **Top listings offer more than just basic amenities** — they often include thoughtful, quality-of-life features such as extra pillows and blankets, free street parking, and private patios or balconies. These comfort-focused amenities appear significantly more often in high-performing listings compared to average ones. Seen from the overall count of the same amenities in Top Vs Avg listings
+- **Host responsiveness matters**: Listings managed by hosts with high acceptance rates and fast response times are significantly more likely to fall in the top listings. This suggests that reliable communication and guest approval contribute to better listing performance.
+
+## 📈 Tableau Dashboard
+
+👉 [View the interactive Tableau dashboard](https://public.tableau.com/views/AirBnbEDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![Tableau Dashboard Preview](AirBnbDashBoard.png)
+
+## 📝 Summary
+
+This project analyzes Airbnb listings in Los Angeles to uncover what makes a listing popular, based on the top 25% of listings by review count and score. After transforming the data and exploring key features, we found that **location, thoughtful amenities, room type, and host responsiveness** all contribute to higher listing performance. Insights are supported by visualizations built in Tableau.
 
