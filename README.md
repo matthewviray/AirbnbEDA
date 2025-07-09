@@ -28,7 +28,7 @@ To prepare the Airbnb listings dataset for analysis, the following steps were ta
    - Created a new metric combining number of reviews and review score to quantify listing popularity.
 
 5. **Filtered for Active Listings**  
-   - Removed listings with very few reviews to focus on more established and relevant listings.
+   - Removed listings with none to very few reviews to focus on more established and relevant listings.
 
 6. **Data Type Conversions**  
    - Converted columns like boolean and strings(e.g prices, percentages) to the appropriate types for analysis.
@@ -57,5 +57,5 @@ This quantile-based approach allows us to focus on established, high-performing 
 
 ## 📝 Summary
 
-This project analyzes Airbnb listings in Los Angeles to uncover what makes a listing popular, based on the top 25% of listings by review count and score. After transforming the data and exploring key features, we found that **location, thoughtful amenities, room type, and host responsiveness** all contribute to higher listing performance. Insights are supported by visualizations built in Tableau.
+This project analyzes Airbnb listings in Los Angeles to uncover what makes a listing popular and differeniate from the average listing by review count and score together. After transforming the data and exploring key features, we found that **location, thoughtful amenities, room type, and host responsiveness** all contribute to higher listing performance. Insights are supported by visualizations built in Tableau.
 
