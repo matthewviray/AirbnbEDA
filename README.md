@@ -10,6 +10,8 @@
 - Python (Jupyter Notebook)
 - Pandas, Numpy, Seaborn, Matplotlib, scikit-learn
 - Tableau (Dashboard)
+  
+**This project uses publicly available Airbnb listings data from [Inside Airbnb](http://insideairbnb.com/get-the-data.html)**
 
 # 🧹 Data Transformation
 
