@@ -52,7 +52,7 @@ This quantile-based approach allows us to focus on established, high-performing 
 
 ## 📈 Tableau Dashboard
 
-👉 [View the interactive Tableau dashboard](https://public.tableau.com/views/AirBnbEDA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+👉 [View the interactive Tableau dashboard](https://public.tableau.com/views/AirBnbEDA/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ![Tableau Dashboard Preview](AirBnbDashBoard.png)
 
 ## 📝 Summary
