@@ -49,11 +49,12 @@ This quantile-based approach allows us to focus on established, high-performing 
 - **Proximity to Downtown Los Angeles** and other major city centers is also a strong indicator of listing performance.
 - **Top listings offer more than just basic amenities** — they often include thoughtful, quality-of-life features such as extra pillows and blankets, free street parking, and private patios or balconies. These comfort-focused amenities appear significantly more often in high-performing listings compared to average ones. Seen from the overall count of the same amenities in Top Vs Avg listings
 - **Host responsiveness matters**: Listings managed by hosts with high acceptance rates and fast response times are significantly more likely to fall in the top listings. This suggests that reliable communication and guest approval contribute to better listing performance.
+-  **Cleanliness ---
 
 ## 📈 Tableau Dashboard
 
 👉 [View the interactive Tableau dashboard](https://public.tableau.com/views/AirBnbEDA/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-![Tableau Dashboard Preview](AirBnbDashBoard.png)
+![Tableau Dashboard Preview](AirbnbDashboard.png)
 
 ## 📝 Summary
 
