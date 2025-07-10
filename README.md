@@ -49,7 +49,7 @@ This quantile-based approach allows us to focus on established, high-performing 
 - **Proximity to Downtown Los Angeles** and other major city centers is also a strong indicator of listing performance.
 - **Top listings offer more than just basic amenities** — they often include thoughtful, quality-of-life features such as extra pillows and blankets, free street parking, and private patios or balconies. These comfort-focused amenities appear significantly more often in high-performing listings compared to average ones. Seen from the overall count of the same amenities in Top Vs Avg listings
 - **Host responsiveness matters**: Listings managed by hosts with high acceptance rates and fast response times are significantly more likely to fall in the top listings. This suggests that reliable communication and guest approval contribute to better listing performance.
--  **Cleanliness ---
+-  **Cleanliness is an important factor to a listings popularity** - most top listing has a cleanliness rating between 4.5-5.0. Cleanliness is ensured to be top priority in these top listings compared to average listings where cleanliness fall to cleanliness below 4.5 commonly.
 
 ## 📈 Tableau Dashboard
 
@@ -58,5 +58,5 @@ This quantile-based approach allows us to focus on established, high-performing 
 
 ## 📝 Summary
 
-This project analyzes Airbnb listings in Los Angeles to uncover what makes a listing popular and differeniate from the average listing by review count and score together. After transforming the data and exploring key features, we found that **location, thoughtful amenities, room type, and host responsiveness** all contribute to higher listing performance. Insights are supported by visualizations built in Tableau.
+This project analyzes Airbnb listings in Los Angeles to uncover what makes a listing popular and differeniate from the average listing by review count and score together. After transforming the data and exploring key features, we found that **location, thoughtful amenities, room type, cleanliness, and host responsiveness** all contribute to higher listing performance. Insights are supported by visualizations built in Tableau.
 
